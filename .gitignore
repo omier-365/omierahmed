@@ -1,0 +1,32 @@
+# ملفات النظام
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ملفات المحررات
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ملفات Node.js (إذا استخدمتها لاحقاً)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ملفات البيئة
+.env
+.env.local
+.env.production
+
+# ملفات Build (إذا كان عندك)
+dist/
+build/
+.cache/
+
+# ملفات مؤقتة
+*.log
+*.tmp

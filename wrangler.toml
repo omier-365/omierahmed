@@ -1,0 +1,22 @@
+# إعدادات Cloudflare Pages (اختياري)
+# يمكنك استخدام هذا الملف للإعدادات المتقدمة
+
+name = "omierahmed"
+compatibility_date = "2026-06-05"
+
+# إعدادات Pages
+[site]
+bucket = "./"
+
+# Headers مخصصة (اختياري)
+# [[headers]]
+# for = "/*"
+# [headers.values]
+# X-Frame-Options = "DENY"
+# X-Content-Type-Options = "nosniff"
+
+# إعادة توجيه (اختياري)
+# [[redirects]]
+# from = "/old-page"
+# to = "/new-page"
+# status = 301
